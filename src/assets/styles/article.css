@@ -1,0 +1,42 @@
+strong{
+    font-weight: bold;
+}
+
+h1{
+    margin: 1rem 0 0 0;
+}
+
+p{
+    margin: 0.5rem 0 0 0;
+}
+
+.article-content{
+    line-height: 1.7rem;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.delete-button,.archive-button{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    padding: 0.5rem 1rem;
+}
+
+.delete-button{
+    background-color: #cf3a15;
+}
+
+.archive-button{
+    background-color: #A3AE9E;
+
+    margin: 0 0 0 1.2rem;
+}
